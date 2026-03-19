@@ -22,6 +22,7 @@
             --fondo-burgundy: #6e0018;
             --ocot-rojo: #0e3f4d; /* Este controla los bordes y botones */
             --color-titulo-script: #fcfcfc; /* NUEVA VARIABLE: Este controla SOLO las letras de "Prompts Maestros" */
+            --color-como-crear: #e6dcfc; /* NUEVA VARIABLE: Este controla SOLO las letras de "Cómo crear" */
             --icot-red-glow: rgba(204, 0, 0, 0.5);
             --icot-teal: #ffffff;
             --blanco: #aa8888;
@@ -74,6 +75,7 @@
 
         .header h1 .creador-bold {
             font-weight: 600;
+            color: var(--color-como-crear); /* APLICAMOS EL COLOR AQUÍ */
         }
 
         .header h1 .prompts-maestros {
@@ -187,7 +189,7 @@
             resize: vertical;
             box-sizing: border-box;
             background: rgba(247, 246, 246, 0.986); /* Fondo oscuro para los inputs */
-            color: var(--texto-base);
+            color: var(--texto-clave);
             font-size: 14px;
             transition: all 0.3s ease;
         }
@@ -197,7 +199,7 @@
             outline: none;
             border-color: var(--ocot-rojo);
             box-shadow: 0 0 10px rgba(204, 0, 0, 0.3); /* Brillo neón suave */
-            background: rgba(0, 0, 0, 0.4);
+            background: rgba(248, 244, 244, 0.493);
         }
 
         /* Botón Generar */
@@ -447,6 +449,9 @@ ${exp}
         });
     }
 </script>
+
+</body>
+</html>
 
 </body>
 </html>
